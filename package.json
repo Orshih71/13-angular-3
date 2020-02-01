@@ -1,0 +1,19 @@
+{
+  "name": "mwa-homework-13-angular-03-orshih71",
+  "version": "1.0.0",
+  "description": "* Your main `AppModule` has only one service: create a service that has a method `getOnlineData()` that returns an array of JSON objects fetched from [https://randomuser.me/api/?results=10](https://randomuser.me/api/?results=10) and then save the results in `localStorage`. \r * When App starts, it should call `getOnlineData()` to fetch all the online data, stringify it, and save it into the `localStorage`. \r * The service has another method `getCachedData()` that returns an observable with a JSON object reads from `localStorage`.\r * Create a featured module called `Users` that is responsible for showing a list of users, your application should only load this module upon navigating via `users` link. \r * Within `Users` module we have two components, both components will retrieve data from `localStorage` using the service you created earlier in `AppModule`\r   * `users` component \r   * `userdetails` component \r * When users click on `users/:uuid` you should display `userdetails` child component with full details about the user.\r * If a user tried to visit `users/:uuid` page without passing a correct `uuid` param, then your app must redirect them to a friendly error page. (use Guards).  \r **Note: Write this exercise with Lazy Loading in mind.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/mwa-homework-13-angular-03-Orshih71.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/mwa-homework-13-angular-03-Orshih71/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/mwa-homework-13-angular-03-Orshih71#readme"
+}
